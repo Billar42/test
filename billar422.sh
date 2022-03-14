@@ -18,4 +18,4 @@ ln -s /config/usb_gadget/g1/functions/mass_storage.0  /config/usb_gadget/g1/conf
 
 getprop sys.usb.controller >/config/usb_gadget/g1/UDC
 
-setprop sys.usb.state mass_storage
+setprop sys.usb.state cdrom
